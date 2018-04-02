@@ -8,5 +8,4 @@ const Searchbox = ({ className }) => (
 export default styled(Searchbox)`
   display: block;
   width: 100%;
-  margin: 10px 0px;
 `;

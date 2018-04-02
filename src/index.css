@@ -3,7 +3,7 @@
 html {
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
-  color: #555;
+  color: #191919;
 }
 
 *,
@@ -18,10 +18,19 @@ body {
 }
 
 input[type="text"] {
-  color: #333;
+  color: #191919;
   letter-spacing: 1px;
 
   border: 0;
   padding: 7px 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #ced0ce;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
