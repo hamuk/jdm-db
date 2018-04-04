@@ -12,14 +12,14 @@ export default styled(Tab)`
   display: inline-block;
   margin: 0 5px 0 0;
   text-decoration: none;
-  color: #e6e8e6;
+  color: #29274c;
 
   &:hover {
-    color: #fff;
+    color: #7e52a0;
   }
 
   &.active {
-    color: #fff;
-    border-bottom: 2px solid #fff;
+    color: #7e52a0;
+    border-bottom: 2px solid #7e52a0;
   }
 `;

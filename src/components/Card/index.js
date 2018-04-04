@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import { media } from "../../styles";
+
 const CardFooter = ({ className, content }) => (
   <div className={className}>{content}</div>
 );
@@ -28,9 +30,16 @@ const Card = ({ className, content, footer }) => (
 );
 
 export default styled(Card)`
-  width: 27%;
+  /*width: 27%;
+  margin: 3%;*/
+
+  width: 20%;
+  ${media.desktop`width: 25%;`}
+  ${media.tablet`width: 50%;`}
+  ${media.phone`width: 100%;`}
+
+
   background: #fff;
-  margin: 3%;
   height: 250px;
   display: inline-flex;
   flex-flow: column;
