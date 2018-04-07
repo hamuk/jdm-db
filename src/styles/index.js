@@ -12,7 +12,7 @@ export const theme = {
 };
 
 export const constants = {
-  topBarHeight: "108px"
+  topBarHeight: "173px"
 };
 
 export const media = Object.keys(sizes).reduce((accumulator, label) => {
