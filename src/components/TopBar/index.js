@@ -19,5 +19,5 @@ export default styled(TopBar)`
   height: ${constants.topBarHeight};
   z-index: 1000;
 
-  box-shadow: 0px 5px 5px 0 #d9d9d9;
+  box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.2);
 `;

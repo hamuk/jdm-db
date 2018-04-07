@@ -1,13 +1,18 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import HeroBanner from "../../components/HeroBanner";
+import CardGrid from "../../components/CardGrid";
 import Card from "../../components/Card";
 
 const Home = () => (
   <div>
-    {/* <HeroBanner /> */}
+    <Helmet>
+      <title>Home</title>
+    </Helmet>
+    <HeroBanner />
     <h1>Latest</h1>
-    <div>
+    <CardGrid>
       <Card content="hey" footer="yo" />
       <Card content="hey" footer="yo" />
       <Card content="hey" footer="yo" />
@@ -22,7 +27,7 @@ const Home = () => (
       <Card content="hey" footer="yo" />
       <Card content="hey" footer="yo" />
       <Card content="hey" footer="yo" />
-    </div>
+    </CardGrid>
   </div>
 );
 

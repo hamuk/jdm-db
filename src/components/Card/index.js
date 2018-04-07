@@ -29,22 +29,28 @@ const Card = ({ className, content, footer }) => (
   </div>
 );
 
-export default styled(Card)`
-  /*width: 27%;
-  margin: 3%;*/
-
-  width: 20%;
-  ${media.desktop`width: 25%;`}
-  ${media.tablet`width: 50%;`}
-  ${media.phone`width: 100%;`}
-
-
+const StyledCard = styled(Card)`
   background: #fff;
   height: 250px;
+  width: 100%;
   display: inline-flex;
   flex-flow: column;
   border-radius: 3px;
   box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+`;
+
+const CardWrapper = ({ className, ...rest }) => (
+  <div className={className}>
+    <StyledCard {...rest} />
+  </div>
+);
+
+export default styled(CardWrapper)`
+  width: 20%;
+  ${media.desktop`width: 25%;`}
+  ${media.tablet`width: 50%;`}
+  ${media.phone`width: 100%;`}
+  padding: 1rem;
 `;
 
 // todo: media queries

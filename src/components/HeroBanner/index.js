@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 import banner from "./banner.jpg";
 
@@ -18,7 +17,7 @@ const HeroBanner = ({ className }) => (
 export default styled(HeroBanner)`
   display: flex;
   height: 500px;
-  margin: 10px 0px;
+  margin: 0 0 25px 0;
   background: #ccc;
   background-image: url(${banner});
   background-size: cover;
@@ -27,8 +26,8 @@ export default styled(HeroBanner)`
   align-items: center;
   flex-flow: column;
   color: #fff;
-  margin-left: -5px;
-  margin-right: -5px;
+  margin-left: -10px;
+  margin-right: -10px;
 
   > h1,
   p {

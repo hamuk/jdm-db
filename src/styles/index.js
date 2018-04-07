@@ -1,10 +1,10 @@
 import { css } from "styled-components";
 
 const sizes = {
-  giant: 1170,
-  desktop: 992,
+  giant: 1199,
+  desktop: 991,
   tablet: 768,
-  phone: 376
+  phone: 575
 };
 
 export const theme = {
