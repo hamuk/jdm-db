@@ -26,8 +26,9 @@ export default styled(HeroBanner)`
   align-items: center;
   flex-flow: column;
   color: #fff;
-  margin-left: -10px;
-  margin-right: -10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 
   > h1,
   p {

@@ -8,5 +8,5 @@ const Tabs = ({ className, children }) => (
 export default styled(Tabs)`
   display: block;
   width: 100%;
-  margin: 10px 0 0 0;
+  margin: 10px 0;
 `;

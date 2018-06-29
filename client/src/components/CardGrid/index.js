@@ -8,4 +8,5 @@ const CardGrid = ({ className, children }) => (
 export default styled(CardGrid)`
   display: flex;
   flex-wrap: wrap;
+  margin: 0 -1rem;
 `;

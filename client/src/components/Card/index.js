@@ -46,10 +46,9 @@ const CardWrapper = ({ className, ...rest }) => (
 );
 
 export default styled(CardWrapper)`
-  width: 20%;
-  ${media.desktop`width: 25%;`}
-  ${media.tablet`width: 50%;`}
-  ${media.phone`width: 100%;`}
+  width: 100%;
+  ${media.tablet`width: 50%;`};
+  ${media.desktop`width: 25%;`};
   padding: 1rem;
 `;
 
